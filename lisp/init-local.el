@@ -14,13 +14,13 @@
 (maybe-require-package 'nix-mode)
 (maybe-require-package 'ensime)
 
-(add-to-list 'load-path "/Users/g/tern/emacs/")
-(autoload 'tern-mode "tern.el" nil t)
+;; (add-to-list 'load-path "/home/g/tern/emacs/")
+;; (autoload 'tern-mode "tern.el" nil t)
 
-(maybe-require-package 'company-tern)
-(add-to-list 'company-backends 'company-tern)
+;; (maybe-require-package 'company-tern)
+;; (add-to-list 'company-backends 'company-tern)
 
-(add-hook 'js-mode-hook (lambda () (tern-mode t)))
+;; (add-hook 'js-mode-hook (lambda () (tern-mode t)))
 
 ;; (require 'init-web-mode)
 
