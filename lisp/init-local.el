@@ -11,6 +11,7 @@
 ;; (require 'web-mode)
 ;; (require 'web-mode)
 
+(maybe-require-package 'nix-mode)
 (maybe-require-package 'ensime)
 
 (add-to-list 'load-path "/Users/g/tern/emacs/")
