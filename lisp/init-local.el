@@ -12,9 +12,19 @@
 ;; (require 'web-mode)
 
 (maybe-require-package 'nix-mode)
-(maybe-require-package 'ensime)
 
-;; (add-to-list 'load-path "/home/g/tern/emacs/")
+(maybe-require-package 'ess)
+
+;; (add-to-list 'package-archives
+;;              `("melpa-stable" . "http://stable.melpa.org/packages/"))
+
+;; ;; (maybe-require-package 'ensime)
+;; (maybe-require-package 'package)
+;; (use-package ensime
+;;              :ensure t
+;;              :pin melpa-stable)
+
+;; (add-to-list 'load-path "/home/g/github/tern/emacs/")
 ;; (autoload 'tern-mode "tern.el" nil t)
 
 ;; (maybe-require-package 'company-tern)
