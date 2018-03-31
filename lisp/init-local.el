@@ -13,7 +13,7 @@
 
 (maybe-require-package 'nix-mode)
 
-(maybe-require-package 'ess)
+;; (maybe-require-package 'ess)
 
 ;; (add-to-list 'package-archives
 ;;              `("melpa-stable" . "http://stable.melpa.org/packages/"))
